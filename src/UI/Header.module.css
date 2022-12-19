@@ -1,0 +1,13 @@
+.header {
+    height: 10rem;
+    width: 100vw;
+    color: #1985A1;
+    background-color: #4C5C68;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown_container {
+
+
+}
