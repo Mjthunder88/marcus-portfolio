@@ -27,5 +27,10 @@
 
 .prime_header {
     font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.inner_prime_content {
+    max-width: 30vw;
 }
 
