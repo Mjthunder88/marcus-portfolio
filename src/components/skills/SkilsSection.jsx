@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./SkillsSection.module.css";
+import boostCreeps from '../../assets/boostCreeps.png'
 
 const SkillsSection = () => {
   return (
@@ -8,20 +9,20 @@ const SkillsSection = () => {
       <div className={styles.primary_content}>
         <article className={styles.inner_top}>
           <h1>Personal Projects</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-            ratione? Nisi soluta modi maiores molestiae asperiores facilis ipsam
-            nostrum quo similique odit a magnam itaque cum laudantium,
-            architecto rerum odio?Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Animi velit sed voluptatibus nostrum suscipit
-            magnam sint. Molestias exercitationem sequi ad, repellendus
-            adipisci, minus nobis expedita ut magni eligendi qui quo.lore
-          </p>
+          <div className={styles.project_container}>
+            <a href="https://www.youtube.com/watch?v=CibRbGz6rNI" target="_blank" rel="noopener noreferrer">
+          <img className={styles.project_pictures} src={boostCreeps} alt="boost_creeps_website" />
+            </a>
+          </div>
+          
         </article>
         <article className={styles.inner_bottom}>
           <h1>Tech Stack</h1>
           <div className={styles.icons_container}>
-          <img className={styles.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html_icon" />
+
+          
+            <img className={styles.icons_small} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain-wordmark.svg" alt="visual_Stuido_icon" />
+          
 
           <img className={styles.icons} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css_icon" />
           

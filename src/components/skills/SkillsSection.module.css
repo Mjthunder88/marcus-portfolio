@@ -22,6 +22,7 @@
 .inner_top {
     display:flex;
     flex-wrap: wrap;
+    flex-direction: column;
     text-align: left;
     width: 100%;
 }
@@ -32,7 +33,7 @@
     flex-wrap: wrap;
     text-align: left;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .icons_container {
@@ -44,5 +45,22 @@
 .icons {
     height: 10rem;
     width: 10rem;
-    padding: 1rem;
+    padding: 0 1rem;
+}
+
+.icons_small {
+    height: 10rem;
+    width: 10rem;
+}
+
+.project_pictures {
+    max-width: 24rem;
+    cursor: pointer;
+    box-shadow: 2px 3px 17px 6px #4C5C68;
+}
+
+.project_container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
 }
