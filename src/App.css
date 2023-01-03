@@ -21,10 +21,11 @@
 }
 
 main {
-  overflow: scroll;
+  overflow-y: scroll;
   height: 100vh;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -53,12 +54,13 @@ h1 {
  }
 
  .resume-screen {
-  height: 100vh;
   width: 100vw;
   position: relative;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(45deg, #4C5C68, #DCDCDD);
  }
+
 
 
 
