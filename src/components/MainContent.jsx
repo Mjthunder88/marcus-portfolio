@@ -22,6 +22,7 @@ const MainContent = () => {
                     <h1>Tech I want to learn:</h1>
                     <ul>
                         <li>TypeScript</li>
+                        <li>React Native</li>
                         <li>SASS</li>
                         <li>AWS</li>
                         <li>Vue.js</li>
