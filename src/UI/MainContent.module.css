@@ -61,7 +61,7 @@
 
 /* Responsive Design */
 
-@media screen and (max-width: 375px), (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 425px) {
     .section {
         background: linear-gradient(45deg, #4C5C68, #DCDCDD)  ;
         width: 100%;
@@ -123,7 +123,7 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 760px) and (max-width: 820px) {
     .section {
         background: linear-gradient(45deg, #4C5C68, #DCDCDD)  ;
         width: 100%;
