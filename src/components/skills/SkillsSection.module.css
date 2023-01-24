@@ -56,7 +56,6 @@
 }
 
 .project_pictures {
-    max-width: 24rem;
     cursor: pointer;
     box-shadow: 2px 3px 17px 6px #4C5C68;
 }
@@ -65,7 +64,8 @@
     max-width: 100%;
     margin-top: 2rem;
     display: flex;
-    flex-wrap: wrap;
+    gap: 2rem;
+    /* flex-wrap: wrap; */
 }
 
 @media screen and (max-width: 375px), (max-width: 425px)  {
@@ -87,7 +87,7 @@
     
     .primary_content {
         max-width: 100%;
-        padding: 0 2rem;
+        padding: 0 1rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
@@ -137,7 +137,13 @@
         max-width: 100%;
         margin-top: 2rem;
         display: flex;
+        justify-content: space-evenly;
         flex-wrap: wrap;
+    }
+
+    iframe {
+        height: 150px;
+        width: 150px;
     }
 }
 

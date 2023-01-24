@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./SkillsSection.module.css";
-import boostCreeps from '../../assets/boostCreeps.png'
 
 const SkillsSection = () => {
   return (
@@ -10,9 +9,8 @@ const SkillsSection = () => {
         <article className={styles.inner_top}>
           <h1>Personal Projects</h1>
           <div className={styles.project_container}>
-            <a href="https://www.youtube.com/watch?v=CibRbGz6rNI" target="_blank" rel="noopener noreferrer">
-          <img className={styles.project_pictures} src={boostCreeps} alt="boost_creeps_website" />
-            </a>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CibRbGz6rNI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5eqPbm42500" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
           </div>
           
         </article>
