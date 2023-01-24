@@ -7,7 +7,7 @@ const ContactSection = () => {
     <section className={styles.section}>
       <div className={styles.prime_content}>
         <h1 className={styles.prime_header}>Contact Me</h1>
-        <h2 className={styles.sub_header}>Email: marcusjohnson88.mj@gmail.com</h2>
+        <a href="mailto: marcusjohnson88.mj@gmail.com" className={styles.sub_header}>Email: marcusjohnson88.mj@gmail.com</a>
       </div>
     </section>
   );

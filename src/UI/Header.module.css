@@ -33,8 +33,28 @@ a {
     font-size: 2rem;
 }
 
-.dropdown_container {
 
+/* Respnosive Design */
 
+@media screen and (max-width: 375px), (max-width: 425px)  {
+
+    .header {
+        height: 5rem;
+        padding: 1rem; 
+        width: 100vw;
+        color: #540D6E;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    .main_header {
+        font-size: 1.5rem;
+    }
 }
 

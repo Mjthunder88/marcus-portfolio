@@ -61,6 +61,58 @@ h1 {
   background: linear-gradient(45deg, #4C5C68, #DCDCDD);
  }
 
+ @media screen and (max-width: 425px) {
+  .resume {
+    padding: 2rem 3rem;
+      max-height: 35rem;
+      min-height: 30rem;
+     }
+    
+     .resume-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: calc(8rem + 1rem);
+     }
+    
+     .resume-screen {
+      width: 100%;
+      overflow: hidden;
+      /* height: 100%; */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(45deg, #4C5C68, #DCDCDD);
+     }
+}
+
+@media screen and (max-width: 375px) {
+  .resume {
+    padding: 4rem 3rem;
+      max-height: 35rem;
+      min-height: 30rem;
+     }
+    
+     .resume-container {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: calc(8rem + 1rem);
+     }
+    
+     .resume-screen {
+      width: 100%;
+      overflow: hidden;
+      /* height: 100%; */
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(45deg, #4C5C68, #DCDCDD);
+     }
+}
+
 
 
 

@@ -57,3 +57,130 @@
 .bottom_prime h1 {
     padding-bottom: .6rem;
 }
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 375px), (max-width: 425px) {
+    .section {
+        background: linear-gradient(45deg, #4C5C68, #DCDCDD)  ;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        z-index: 3;
+        scroll-snap-align: start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fresh {
+        max-width: 11rem;
+        box-shadow: 2px 3px 17px 6px #4C5C68;
+    }
+
+    .prime_content {
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1rem;
+        text-align: left;
+    }
+
+    .prime_header {
+        font-size: 1.5rem;
+        padding-bottom: .5rem;
+    }
+    
+    .inner_prime_content {
+        max-width: 80vw;
+    }
+    
+    .bottom_prime {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+        text-align: left;
+        max-width: 100vw;
+        padding: 0 4.3rem;
+    }
+    
+    .bottom_prime_top {
+        width: 80vw;
+        padding: .5rem
+    }
+    
+    .bottom_prime_bottom {
+        width: 80vw;
+        padding: .5rem;
+    }
+    
+    .bottom_prime h1 {
+        padding-bottom: .6rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section {
+        background: linear-gradient(45deg, #4C5C68, #DCDCDD)  ;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        z-index: 3;
+        scroll-snap-align: start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fresh {
+        max-width: 22rem;
+        box-shadow: 2px 3px 17px 6px #4C5C68;
+    }
+    
+    .prime_content {
+        margin-top: calc(10rem + 1rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+        text-align: left;
+    }
+    
+    .prime_header {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .inner_prime_content {
+        max-width: 30vw;
+    }
+    
+    .bottom_prime {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8rem;
+        margin-top: 2rem;
+        text-align: left;
+        max-width: 100vw;
+        padding: 0 4.3rem;
+    }
+    
+    .bottom_prime_top {
+        width: 50vw;
+        padding: 1rem
+    }
+    
+    .bottom_prime_bottom {
+        width: 50vw;
+        padding: 1rem;
+    }
+    
+    .bottom_prime h1 {
+        padding-bottom: .6rem;
+    }
+}

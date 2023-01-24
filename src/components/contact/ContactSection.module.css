@@ -13,6 +13,7 @@
 
 .prime_header {
     font-size: 2.5rem;
+    padding-bottom: 1rem;
 }
 .prime_content {
     margin-top: calc(10rem + 1rem);
@@ -20,4 +21,5 @@
 
 .sub_header {
     padding: 1rem;
+    font-size: 1.3rem;
 }
