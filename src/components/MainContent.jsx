@@ -3,6 +3,7 @@ import React from 'react'
 import styles from '../UI/MainContent.module.css'
 import fresh from '../assets/fresh.png'
 
+
 const MainContent = () => {
     return (
         <section className={styles.section}>

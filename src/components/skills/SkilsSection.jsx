@@ -9,8 +9,8 @@ const SkillsSection = () => {
         <article className={styles.inner_top}>
           <h1>Personal Projects</h1>
           <div className={styles.project_container}>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/CibRbGz6rNI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5eqPbm42500" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CibRbGz6rNI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true} className={styles.project_pictures}></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5eqPbm42500" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true} className={styles.project_pictures}></iframe>
           </div>
           
         </article>

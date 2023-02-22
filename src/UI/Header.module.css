@@ -1,12 +1,13 @@
 .header {
     height: 10rem;
-    padding: 3rem;
-    max-height: 12rem;
+    padding: 1rem;
+    max-height: 20rem;
     width: 100vw;
     color: #540D6E;
     background: transparent;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     z-index: 100;
     padding-left: 4rem;
@@ -33,6 +34,11 @@ a {
     font-size: 2rem;
 }
 
+.logo {
+    min-width: auto;
+    height: 16rem;
+}
+
 
 /* Respnosive Design */
 
@@ -55,6 +61,11 @@ a {
 
     .main_header {
         font-size: 1.5rem;
+    }
+
+    .logo {
+        min-width: auto;
+        height: 8rem;
     }
 }
 
