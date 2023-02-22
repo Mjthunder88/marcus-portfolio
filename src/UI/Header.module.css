@@ -76,7 +76,7 @@ a {
 
 /* Respnosive Design */
 
-@media screen and (max-width: 375px), (max-width: 425px)  {
+@media screen and (max-width: 375px), (max-width: 458px)  {
 
     .header {
         height: 5rem;

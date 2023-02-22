@@ -61,7 +61,7 @@ h1 {
   background: linear-gradient(45deg, #4C5C68, #DCDCDD);
  }
 
- @media screen and (max-width: 425px) {
+ @media screen and (max-width: 458px) {
   .resume {
     padding: 2rem 3rem;
       max-height: 35rem;

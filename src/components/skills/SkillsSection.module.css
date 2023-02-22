@@ -68,7 +68,7 @@
     /* flex-wrap: wrap; */
 }
 
-@media screen and (max-width: 375px), (max-width: 425px)  {
+@media screen and (max-width: 375px), (max-width: 458px)  {
     .section {
         background: #DCDCDD;
         width: 100%;
