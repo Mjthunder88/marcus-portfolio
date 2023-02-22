@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../UI/Header'
 
-import resume from '../assets/resumePicture.png'
-import resume2 from '../assets/resumePicture2.png'
+import resume from '../assets/resume-2.png'
+import resumeBottom from '../assets/resume-2-bottom.png'
 
 
 const Resume = () => {
@@ -11,7 +11,7 @@ const Resume = () => {
             <Header />
             <div className='resume-container'>
             <img className='resume' src={resume} alt='marcus_johnson_resume' />
-            <img className='resume' src={resume2} alt='marcus_johnson_resume' />
+            <img className='resume' src={resumeBottom} alt='marcus_johnson_resume' />
             </div>
         </section>
     )
