@@ -20,13 +20,6 @@
   height: 100%;
 }
 
-main {
-  overflow-y: scroll;
-  height: 100vh;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
-}
 
 h1 {
   color: #540D6E;

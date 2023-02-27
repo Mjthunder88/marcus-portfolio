@@ -1,116 +1,112 @@
 .header {
-    height: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  max-height: 20rem;
+  width: 100vw;
+  color: #540d6e;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #540d6e;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid transparent;
+  font-weight: 600;
+}
+
+.a {
+  text-decoration: none;
+  color: #540d6e;
+  transition: all 0.5s;
+}
+
+.a:hover {
+  border-bottom: solid 0.1rem #540d6e;
+}
+
+.logo {
+  min-width: auto;
+  height: 16rem;
+}
+
+.drop_down {
+  display: none;
+  transition: all 5s ease-in-out;
+}
+
+.drop_down_displayed {
+  height: auto;
+  position: fixed;
+  right: 4rem;
+  top: 3.4rem;
+  min-width: 20vw;
+  z-index: 300;
+  transition: all 3s ease-in-out;
+  background-color: #f6fff8;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bottom_content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.little_header {
+  color: gray;
+  padding: 0.5rem;
+}
+
+.dropdown_container {
+  text-align: left;
+}
+
+/* Respnosive Design */
+
+@media screen and (max-width: 375px), (max-width: 458px) {
+  .header {
+    height: 5rem;
     padding: 1rem;
-    max-height: 20rem;
     width: 100vw;
-    color: #540D6E;
+    color: #540d6e;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 100;
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
-
-a {
-    text-decoration: none;
-    color: #540D6E;
-    padding: .5rem;
-    border-bottom: 0.1rem solid transparent;
-    font-weight: 600;
-}
-
-.a {
-    text-decoration: none;
-    color: #540D6E;
-    transition: all .5s;
-}
-
-.a:hover {
-    border-bottom: solid .1rem #540D6E;
-}
-
-
-.logo {
-    min-width: auto;
-    height: 16rem;
-}
-
-.drop_down {
-    display: none;
-    transition: all 5s ease-in-out;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
-  
+
+  .logo {
+    min-width: auto;
+    height: 8rem;
+  }
+
   .drop_down_displayed {
     height: auto;
     position: fixed;
-    right: 4rem;
-    top: 3.4rem;
-    min-width: 20vw;
+    right: 0.5rem;
+    top: 1rem;
+    max-width: auto;
     z-index: 300;
     transition: all 3s ease-in-out;
     background-color: #f6fff8;
-    padding: 5rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
-
-  .bottom_content {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-  }
-
-  .little_header {
-    color: gray;
-    padding: .5rem;
-  }
-
-  .dropdown_container {
-    text-align: left;
-  }
-
-
-/* Respnosive Design */
-
-@media screen and (max-width: 375px), (max-width: 458px)  {
-
-    .header {
-        height: 5rem;
-        padding: 1rem; 
-        width: 100vw;
-        color: #540D6E;
-        background: transparent;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        z-index: 100;
-        padding-left: .5rem;
-        padding-right: .5rem;
-    }
-
-    .logo {
-        min-width: auto;
-        height: 8rem;
-    }
-
-    .drop_down_displayed {
-        height: auto;
-        position: fixed;
-        right: .5rem;
-        top: 1rem;
-        max-width: auto;
-        z-index: 300;
-        transition: all 3s ease-in-out;
-        background-color: #f6fff8;
-        padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-      }
 }
-
