@@ -24,13 +24,13 @@ const MainContent = () => {
             county area. Chasing my dreams as a web devloper and doing
             everything I can to better my skills in the tech industry! Outside
             of the tech industry I love watching football and basketball and
-            enjoying a weekend with family and friends.{" "}
+            enjoying a weekend with family and friends.
           </p>
         </div>
         <div className={styles.bottom_prime_bottom}>
           <h1>Engineering</h1>
           <p>
-            Most proficient with Javascritp and the PERN tech stack, but always
+            Most proficient with Javascript and the PERN tech stack, but always
             looking to expand my capabilities. With the tools and skillset I
             have I can create fast solutions for problems that come my way but
             love working with others to find the best solutions for problems and
