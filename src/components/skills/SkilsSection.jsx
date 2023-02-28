@@ -9,24 +9,56 @@ const SkillsSection = () => {
         <article className={styles.inner_top}>
           <h1>Personal Projects</h1>
           <div className={styles.project_container}>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/CibRbGz6rNI"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen={true}
-              className={styles.project_pictures}
-            ></iframe>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/5eqPbm42500"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen={true}
-              className={styles.project_pictures}
-            ></iframe>
+            <div className={styles.project_info}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/CibRbGz6rNI"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen={true}
+                className={styles.project_pictures}
+              ></iframe>
+              <div className={styles.link_container_bottom}>
+                <a
+                  href="https://github.com/Mjthunder88/Foundations-capstone-project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.project_links}
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div className={styles.project_info}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/5eqPbm42500"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen={true}
+                className={styles.project_pictures}
+              ></iframe>
+              <div className={styles.link_container_bottom}>
+                <a
+                  href="https://car-link-app.herokuapp.com/auth"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.project_links}
+                >
+                  Website
+                </a>
+                <a
+                  href="https://github.com/Mjthunder88/car-link-project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.project_links}
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
           </div>
         </article>
         <article className={styles.inner_bottom}>
